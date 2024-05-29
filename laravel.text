@@ -1,0 +1,16 @@
+composer create-project laravel/laravel example-app
+composer create-project laravel/laravel:^10.0 blog
+add columen to table after migrate
+-----------------------------------------------------
+
+ php artisan make:migration to_students_deapartment --table=students 
+ $table->string('department')->nullable;
+---------------------------
+ php artisan make:controller ProductController --resource --model=product
+<!--<img src="//{{url(images/$product['image'])}}" alt="">"-->
+----------------------------------------------
+composer require laravel/ui
+php artisan ui bootstrap --auth
+npm install
+npm run dev
+npm run build
